@@ -6,6 +6,7 @@ public class Restaurant {
 
     public static void main(String[] args) {
         Pizza p;
+        showMessageDialog(null, "Welcome in pizza Restaurant");
         String x = showInputDialog("1.Chinken Pizza \n2.Cheese Pizza \n3.Margherita Pizza \n4.Tuna Pizza\n5.Exit \nEnter your order");
         int i = Integer.parseInt(x);
         switch (i) {
